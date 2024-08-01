@@ -4,5 +4,5 @@ seaborn==0.12.0
 matplotlib==3.5.1
 folium==0.14.0
 streamlit-folium==0.22.0
-numpy==1.21.0  # Required by pandas, seaborn, matplotlib
-branca==0.6.0  # Required by folium for creating maps
+numpy==1.21.0  
+branca==0.6.0  
