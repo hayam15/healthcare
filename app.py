@@ -14,7 +14,7 @@ import folium
 from streamlit_folium import folium_static
 
 # Load the dataset
-data_combined = pd.read_csv(r"C:\Users\hayam\Downloads\combined_data.csv")  # Update this path to your dataset
+data_combined = pd.read_csv("combined_data.csv")  # Update this path to your dataset
 
 # Replace NaN values in 'Cause of death or injury' with 'All'
 data_combined['Cause of death or injury'].fillna('All', inplace=True)
